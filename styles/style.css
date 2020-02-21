@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding:  0 20px 0 20px;
+    font-size: 13px;
+}
+nav a{
+    margin: 0 10px 0 10px
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+main>div:nth-child(1){
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+main>div:nth-child(1)>i{
+    position: absolute;
+    margin-top:90px;
+    left: 30px;
+}
+main>p{
+   padding: 20px
+}
+footer{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(218, 218, 218);
+}
+.pais{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid grey;
+    font-size: 14px;
+}
+.pais>span{
+    margin-left: 10px
+}
+.condiciones{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    border-top: 1px solid grey;
+}
+.condiciones>div:nth-child(1){
+    margin-left:10px
+}
+.btn-blue{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+.btn-white{
+    color:blue;
+    background-color: white;
+    border: 1px solid grey;
+}
+.btn-blue, .btn-white{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+}
+input{
+    border: 1px solid grey;
+    width: 600px;
+    padding-left: 40px;
+    border-radius: 30px;
+    height: 50px;
+    margin: 20px 0 20px 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
